@@ -1,0 +1,133 @@
+/usr/local/python/3.12.1/lib/python3.12/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Unknown extension is not supported and will be removed
+  warn(msg)
+/usr/local/python/3.12.1/lib/python3.12/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Unknown extension is not supported and will be removed
+  warn(msg)
+/workspaces/VR-ML/CTF-RCA-SWaT/data_quality_audit.py:38: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df["Timestamp"] = pd.to_datetime(
+/usr/local/python/3.12.1/lib/python3.12/site-packages/openpyxl/worksheet/_reader.py:329: UserWarning: Unknown extension is not supported and will be removed
+  warn(msg)
+/workspaces/VR-ML/CTF-RCA-SWaT/data_quality_audit.py:38: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df["Timestamp"] = pd.to_datetime(
+
+==========================================================================================
+ATTACK
+==========================================================================================
+
+Loading: SWaT_Dataset_Attack_v0.xlsx
+Shape: (449919, 53)
+
+Columns:
+['Timestamp', 'FIT101', 'LIT101', 'MV101', 'P101', 'P102', 'AIT201', 'AIT202', 'AIT203', 'FIT201', 'MV201', 'P201', 'P202', 'P203', 'P204', 'P205', 'P206', 'DPIT301', 'FIT301', 'LIT301', 'MV301', 'MV302', 'MV303', 'MV304', 'P301', 'P302', 'AIT401', 'AIT402', 'FIT401', 'LIT401', 'P401', 'P402', 'P403', 'P404', 'UV401', 'AIT501', 'AIT502', 'AIT503', 'AIT504', 'FIT501', 'FIT502', 'FIT503', 'FIT504', 'P501', 'P502', 'PIT501', 'PIT502', 'PIT503', 'FIT601', 'P601', 'P602', 'P603', 'Normal/Attack']
+
+Timestamp:
+Missing timestamps: 0
+Minimum: 2015-12-28 10:00:00
+Maximum: 2016-01-02 14:59:59
+Duplicate timestamps: 0
+
+Duplicate complete rows: 0
+
+Missing values:
+No missing values.
+
+Constant columns:
+['P202', 'P301', 'P401', 'P404', 'P502', 'P601', 'P603']
+
+Data types:
+int64             26
+float64           25
+datetime64[us]     1
+str                1
+Name: count, dtype: int64
+
+Possible label columns:
+['Normal/Attack']
+
+Value counts for Normal/Attack:
+Normal/Attack
+Normal     395298
+Attack      54584
+A ttack        37
+Name: count, dtype: int64
+
+==========================================================================================
+NORMAL_V0
+==========================================================================================
+
+Loading: SWaT_Dataset_Normal_v0.xlsx
+Shape: (496800, 53)
+
+Columns:
+['Timestamp', 'FIT101', 'LIT101', 'MV101', 'P101', 'P102', 'AIT201', 'AIT202', 'AIT203', 'FIT201', 'MV201', 'P201', 'P202', 'P203', 'P204', 'P205', 'P206', 'DPIT301', 'FIT301', 'LIT301', 'MV301', 'MV302', 'MV303', 'MV304', 'P301', 'P302', 'AIT401', 'AIT402', 'FIT401', 'LIT401', 'P401', 'P402', 'P403', 'P404', 'UV401', 'AIT501', 'AIT502', 'AIT503', 'AIT504', 'FIT501', 'FIT502', 'FIT503', 'FIT504', 'P501', 'P502', 'PIT501', 'PIT502', 'PIT503', 'FIT601', 'P601', 'P602', 'P603', 'Normal/Attack']
+
+Timestamp:
+Missing timestamps: 0
+Minimum: 2015-12-22 16:00:00
+Maximum: 2015-12-28 09:59:59
+Duplicate timestamps: 0
+
+Duplicate complete rows: 0
+
+Missing values:
+No missing values.
+
+Constant columns:
+['P102', 'P201', 'P202', 'P204', 'P206', 'P401', 'P403', 'P404', 'P502', 'P601', 'P603']
+
+Data types:
+int64             26
+float64           25
+datetime64[us]     1
+str                1
+Name: count, dtype: int64
+
+Possible label columns:
+['Normal/Attack']
+
+Value counts for Normal/Attack:
+Normal/Attack
+Normal    496800
+Name: count, dtype: int64
+
+==========================================================================================
+NORMAL_V1
+==========================================================================================
+
+Loading: SWaT_Dataset_Normal_v1.xlsx
+Shape: (495000, 53)
+
+Columns:
+['Timestamp', 'FIT101', 'LIT101', 'MV101', 'P101', 'P102', 'AIT201', 'AIT202', 'AIT203', 'FIT201', 'MV201', 'P201', 'P202', 'P203', 'P204', 'P205', 'P206', 'DPIT301', 'FIT301', 'LIT301', 'MV301', 'MV302', 'MV303', 'MV304', 'P301', 'P302', 'AIT401', 'AIT402', 'FIT401', 'LIT401', 'P401', 'P402', 'P403', 'P404', 'UV401', 'AIT501', 'AIT502', 'AIT503', 'AIT504', 'FIT501', 'FIT502', 'FIT503', 'FIT504', 'P501', 'P502', 'PIT501', 'PIT502', 'PIT503', 'FIT601', 'P601', 'P602', 'P603', 'Normal/Attack']
+
+Timestamp:
+Missing timestamps: 0
+Minimum: 2015-12-22 16:30:00
+Maximum: 2015-12-28 09:59:59
+Duplicate timestamps: 0
+
+Duplicate complete rows: 0
+
+Missing values:
+No missing values.
+
+Constant columns:
+['P102', 'P201', 'P202', 'P204', 'P206', 'P401', 'P403', 'P404', 'P502', 'P601', 'P603']
+
+Data types:
+int64             26
+float64           25
+datetime64[us]     1
+str                1
+Name: count, dtype: int64
+
+Possible label columns:
+['Normal/Attack']
+
+Value counts for Normal/Attack:
+Normal/Attack
+Normal    495000
+Name: count, dtype: int64
+
+==========================================================================================
+AUDIT COMPLETE
+==========================================================================================
